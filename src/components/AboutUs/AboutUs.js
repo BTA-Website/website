@@ -1,6 +1,10 @@
+import Header from "../assets/Header";
+
 const AboutUs = () => {
     return (
-        <p>About Us</p>
+        <>
+            <p>Testing</p>
+        </>
     )
 }
 
