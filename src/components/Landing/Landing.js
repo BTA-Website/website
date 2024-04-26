@@ -1,21 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Landing.css';
+import Header from "../assets/Header";
 
 const Landing = () => {
   return (
     <div className="landing-page">
-      <header>
-        <nav>
-          <ul>
-            <li><Link to="/">BERKELEY TENNIS ASSOCIATION</Link></li>
-            <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/calendar">Calendar</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/join" className="join-us">Join Us</Link></li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <main>
         <section className="hero">
           <div className="hero-content">

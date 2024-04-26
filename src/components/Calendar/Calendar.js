@@ -1,5 +1,6 @@
 import Header from "../assets/Header";
 import "./Calendar.css";
+import Footer from "../assets/Footer";
 
 const Calendar = () => {
   return (
@@ -21,6 +22,7 @@ const Calendar = () => {
           ></iframe>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

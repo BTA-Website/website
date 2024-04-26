@@ -1,5 +1,6 @@
 import "./JoinUs.css";
 import Header from "../assets/Header";
+import Footer from "../assets/Footer";
 import racket from "../../images/icon21.png";
 
 const JoinUs = () => {
@@ -63,9 +64,9 @@ const JoinUs = () => {
                             })}
                         </div>
                     </div>
+                    <Footer />
                 </div>
             </div>
-
         </div>
     )
 }
