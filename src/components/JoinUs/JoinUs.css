@@ -1,5 +1,7 @@
 .joinus-wrapper {
   width: 100%;
+  background-color: #E5F8E1;
+  height: 100vh;
 }
 
 .joinus-header {
@@ -49,9 +51,6 @@
     padding-top: 2%;
 }
 
-.joinus-body {
-    background-color: #E5F8E1;
-}
 
 .question-title, .question-description {
     padding-left: 2%;

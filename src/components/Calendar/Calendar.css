@@ -1,0 +1,37 @@
+.calendar-wrapper {
+    width: 100%;
+    background-color: #E5F8E1;
+    height: 100vh;
+}
+
+.calendar-header {
+    background-color: #2F6719;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2%;
+    border-radius: 20px;
+
+}
+
+.calendar-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-banner {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+.calendar-border {
+    background-color: #2F6719;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
