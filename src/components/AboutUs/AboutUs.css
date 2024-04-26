@@ -1,23 +1,96 @@
-body {
+head{
+    margin: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #E5F8E1; /* This will be the color surrounding the topbar */
     font-family: Arial, sans-serif;
 }
 
 .topbar {
-    color: #E5F8E1
+    border: none;
+    background-color: #2F6719;
+    color: #E5F8E1;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; /* Align text-container and main-image horizontally */
+    align-items: center; /* Align items vertically */
+    padding: 140px;
+    margin-bottom: 20px; /* Add bottom margin if you want to separate the topbar from the content below */
 }
 
-nav {
-    /* styles for navigation bar */
+
+.topbar h1 {
+    margin-bottom: 10px; /* Adjust space between h1 and p */
 }
 
-h1 {
-    /* styles for main heading */
+.topbar p{
+    font-size: 20px;
+    padding-right: 140px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Stack h1 and p vertically */
+    align-items: flex-start; /* Align text to the start */
+}
+
+.main-image {
+    width: auto; /* You can set a specific width instead, e.g., 200px */
+    height: auto; /* This ensures the aspect ratio is maintained */
+    max-width: 100%; /* This ensures the image is responsive and does not exceed its container's width */
+    max-height: 300px; /* Adjust this value to the desired maximum height */
 }
 
 #team {
-    /* styles for team section */
+    padding: 60px;
 }
 
-footer {
-    /* styles for footer */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distributes space around items */
+    padding: 20px; /* Or any amount to create space inside the container */
+    gap: 20px; /* This creates space between your flex items */
+}
+
+.image-container img {
+    width: calc(20% - 20px); /* Reducing more space for consistent margins */
+    margin-right: 10px; /* Half your total horizontal margin */
+    margin-bottom: 10px;
+}
+
+.member-container {
+    width: calc(20% - 40px); /* Adjust this to fit 5 containers per row, accounting for margins */
+    text-align: center; /* Center-align the text below the image */
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.member-container img {
+    width: 100%; /* Make the image responsive within its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between the image and the text */
+}
+
+.member {
+    width: 100%; /* Make the image responsive within its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* This ensures that the image takes up the entire width of its container */
+}
+
+.role {
+    display: inline-block; /* Allows us to set dimensions */
+    background-color: #2F6719; /* The green background color */
+    color: #E5F8E1; /* The text color */
+    padding: 7px 70px; /* Top and Bottom, Left and Right padding */
+    border-radius: 50px; /* Large border-radius to create an oval shape */
+    margin: 5px 0; /* Top and Bottom margin */
+    font-size: 14px; /* The text size */
+    font-weight: bold; /* Makes the font bold */
+}
+
+.name {
+    color: #2F6719;
 }
