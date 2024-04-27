@@ -1,42 +1,40 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Landing.css';
 import Header from "../assets/Header";
+import Footer from "../assets/Footer";
+import team from "../../images/team.png";
+import pin from "../../images/pin.png";
+import player1 from "../../images/player1.png";
+import player2 from "../../images/player2.png";
 
 const Landing = () => {
   return (
     <div className="landing-page">
       <Header />
-      <main>
-        <section className="hero">
-          <div className="hero-content">
-            <h1>BERKELEY TENNIS ASSOCIATION</h1>
-            <button>Get Involved</button>
-          </div>
-          <div className="hero-image">
-            <img src="path/to/hero-image.jpg" alt="Tennis players" />
-          </div>
-        </section>
-        <section className="location">
-          <div className="location-icon">
-            <i className="fas fa-map-marker-alt"></i>
-          </div>
-          <div className="location-details">
-            <h2>WHERE TO FIND US</h2>
-            <p>HEARST MINING COURTS</p>
-            <p>Wednesdays @ 7 PM</p>
-            <p>Thursdays @ 7 PM</p>
-          </div>
-        </section>
-      </main>
-      <footer>
-        <p>&copy; 2024 Berkeley Tennis Association. All rights reserved.</p>
-        <div className="social-media">
-          <a href="#"><i className="fab fa-facebook"></i></a>
-          <a href="#"><i className="fab fa-twitter"></i></a>
-          <a href="#"><i className="fab fa-instagram"></i></a>
+      <div className="landing-body">
+        <div className="landing-top">
+          <p className="landing-banner">BERKELEY TENNIS ASSOCIATION</p>
+          <img src={player1} className="player1" />
+          <img src={player2} className="player2" />
         </div>
-      </footer>
+        <div className="landing-bottom">
+          <div className="landing-info">
+            <div className="landing-left">
+              <p>WHERE TO FIND US</p>
+              <div className="landing-location">
+                <img src={pin} />
+                <p>HEARST MINING COURTS</p>
+              </div>
+              <div className="landing-time"><p>Wednesdays @ 7 PM</p></div>
+              <div className="landing-time"><p>Thursdays @ 7PM</p></div>
+            </div>
+            <div className="landing-right">
+              <img src={team} className="team-pic" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 };

@@ -1,106 +1,88 @@
 .landing-page {
     font-family: Arial, sans-serif;
+    width: 100%;
   }
-  
-  header {
-    background-color: #1a5a20;
-    padding: 20px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav ul li {
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .join-us {
-    background-color: #fff;
-    color: #1a5a20;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  
-  .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    background-color: #f2f2f2;
-  }
-  
-  .hero-content {
-    flex: 1;
-  }
-  
-  .hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .hero button {
-    background-color: #1a5a20;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .hero-image {
-    flex: 1;
-    text-align: right;
-  }
-  
-  .hero-image img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .location {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-  }
-  
-  .location-icon {
-    font-size: 48px;
-    margin-right: 20px;
-    color: #1a5a20;
-  }
-  
-  .location-details h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .location-details p {
-    margin-bottom: 5px;
-  }
-  
-  footer {
-    background-color: #1a5a20;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .social-media a {
-    color: #fff;
-    margin-left: 10px;
-    font-size: 24px;
-  }
+
+.landing-top {
+  background-color: #E4FAC1;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.landing-bottom {
+  height: 55vh;
+}
+
+.landing-banner {
+  margin: 0;
+}
+
+.landing-banner {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #2F6719;
+}
+
+.landing-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #52893C;
+  width: 80%;
+  height: 30vh;
+  border-radius: 10px;
+  margin-top: 4%;
+}
+
+.team-pic {
+  width: 277px;
+}
+ 
+.landing-bottom {
+  display: flex;
+  justify-content: center;
+  background-color: #E5F8E1;
+}
+
+.landing-left img {
+  width: 18%;
+}
+
+.landing-location {
+  display: flex;
+}
+
+.landing-right, landing-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-left p {
+  color: white;
+  font-weight: bold;
+}
+
+.landing-time {
+  background-color: #2F6719;
+  text-align: center;
+}
+
+ 
+.player1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.player2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+}

@@ -67,3 +67,22 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+.faq {
+  padding-bottom: 2%;
+}
+
+.joinus-button {
+  border-radius: 10px;
+  background-color: #669356;
+  cursor: pointer;
+}
+
+.buttons {
+  padding-top: 4%;
+}
+
+.button-text {
+  color: white;
+  font-weight: bold;
+}
