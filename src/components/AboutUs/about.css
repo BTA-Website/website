@@ -1,0 +1,83 @@
+body {
+    background-color: #E5F8E1;
+    font-family: "Inter", sans-serif;
+}
+
+
+.container {
+    background-color: #2F6719;
+    display: flex;
+    gap: 1%;    
+    padding: 6%;
+    justify-content: space-between;
+}
+
+.image1 {
+    padding-right: 6%;
+    position: relative;
+    max-width: 60%;
+    max-height: 60%;
+    object-fit: auto;
+}
+
+.image1 img {
+    max-width: 36vw;
+    max-height: 36vw;
+    aspect-ratio: 0.75;
+    object-fit: cover;
+}
+
+.container h1 {
+    color: #E5F8E1;
+    width: 65%;
+}
+
+.clubBio {
+    color: #E5F8E1;
+    width: 65%;
+}
+
+
+.memberInfo {
+  
+  padding: 7%;
+  text-align: center;
+
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.memberDirectory {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7%;
+    gap: 15%;
+    max-width: 100%;
+    justify-content: space-evenly;
+}
+
+.memberInfo h1 {
+    color: #5E9E0C;
+    margin-bottom: 2rem; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+}
+
+
+.memberName {
+    color: #2F6719;
+}
+
+.role {
+    color: #E5F8E1;
+    background-color: #2F6719;
+    border-radius: 10px;
+}
+
+
+.bio {
+    font-weight: 500;
+    color: #000000;
+    border-radius: 10px;
+    margin-bottom: 6vw;
+}

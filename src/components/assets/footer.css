@@ -1,0 +1,28 @@
+.footer-container {
+    background-color: #2f6719;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 6% 2% 0;
+    max-width: 100%;
+}
+
+/* .header-left img{
+    width: 40%;
+} */
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5vw;
+    align-items: center;
+}
+
+.footer-icons img {
+    max-width: 2.5vw;
+    max-height: 2.5vw;
+}
+
+a {
+    background-color: #2f6719;
+    border: transparent;
+}

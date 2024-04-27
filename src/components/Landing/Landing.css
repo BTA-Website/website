@@ -1,0 +1,88 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+    width: 100%;
+  }
+
+.landing-top {
+  background-color: #E4FAC1;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.landing-bottom {
+  height: 55vh;
+}
+
+.landing-banner {
+  margin: 0;
+}
+
+.landing-banner {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #2F6719;
+}
+
+.landing-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #52893C;
+  width: 80%;
+  height: 30vh;
+  border-radius: 10px;
+  margin-top: 4%;
+}
+
+.team-pic {
+  width: 277px;
+}
+ 
+.landing-bottom {
+  display: flex;
+  justify-content: center;
+  background-color: #E5F8E1;
+}
+
+.landing-left img {
+  width: 18%;
+}
+
+.landing-location {
+  display: flex;
+}
+
+.landing-right, landing-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-left p {
+  color: white;
+  font-weight: bold;
+}
+
+.landing-time {
+  background-color: #2F6719;
+  text-align: center;
+}
+
+ 
+.player1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.player2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+}
