@@ -2,19 +2,21 @@
     background-color: #2f6719;
     display: flex;
     justify-content: space-between;
-    padding: 1% 6% 2% 0;
-    max-width: 100%;
+    width: 100%;
+    position: sticky;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    bottom: 0;
 }
 
-/* .header-left img{
-    width: 40%;
-} */
 
 .footer-icons {
     display: flex;
     flex-direction: row;
     gap: 2.5vw;
     align-items: center;
+    padding-right: 1%;
 }
 
 .footer-icons img {
