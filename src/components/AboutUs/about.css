@@ -3,7 +3,6 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-
 .container {
     background-color: #2F6719;
     display: flex;
@@ -37,47 +36,63 @@ body {
     width: 65%;
 }
 
+.teamMember {
+    width: 20%; /* Increased width to give space for larger images */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vw; /* Add spacing between members */
+}
 
 .memberInfo {
-  
-  padding: 7%;
-  text-align: center;
-
-  font-family: "Inter", sans-serif;
-  font-weight: bold;
-  font-size: 1vw;
+    padding: 7%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
 }
 
 .memberDirectory {
     display: flex;
     flex-wrap: wrap;
     padding: 7%;
-    gap: 15%;
+    gap: 5%; /* Reduce gap between members for a more compact layout */
     max-width: 100%;
     justify-content: space-evenly;
 }
 
 .memberInfo h1 {
     color: #5E9E0C;
-    margin-bottom: 2rem; /* Adjust as needed */
-    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 2rem;
+    margin: 0 auto;
 }
-
 
 .memberName {
     color: #2F6719;
+    margin-top: 1vw;
 }
 
 .role {
     color: #E5F8E1;
     background-color: #2F6719;
     border-radius: 10px;
+    padding: 0.5vw;
+    margin-top: 0.5vw;
+    text-align: center;
+    width: 100%; /* Align the role box with the image size */
 }
 
+.profile-pic {
+    width: 150px; /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    object-fit: cover; /* Ensure the image scales and maintains aspect ratio */
+    border-radius: 50%; /* Circular image */
+}
 
 .bio {
     font-weight: 500;
     color: #000000;
     border-radius: 10px;
-    margin-bottom: 6vw;
+    margin-top: 1vw;
+    text-align: center;
 }

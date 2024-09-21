@@ -27,11 +27,11 @@ const JoinUs = () => {
     },
   ];
 
-  const buttonText = [
-    "Fill out the Membership Form!",
-    "Pay the Semester Fees",
-    "Sign up for Matches!",
-  ];
+  const buttonText = {
+    "Fill out the Membership Form!": "https://forms.gle/WjQXd1Zd174oemB97",
+    "Pay the Semester Fees": "https://forms.gle/WjQXd1Zd174oemB97",
+    "Sign up for Matches!": "https://docs.google.com/spreadsheets/d/1fqjCqmZvIZOHG05G_uSSefqkheqB8pBZQ2aGu5DfLEM/edit?usp=sharing",
+  };
 
   return (
     <div>
@@ -45,10 +45,12 @@ const JoinUs = () => {
         </div>
         <div className="joinus-body">
           <div className="buttons">
-            {buttonText.map((text) => {
+            {Object.keys(buttonText).map((text) => {
               return (
                 <button className="joinus-button">
-                  <p className="button-text">{text}</p>
+                  <a href={buttonText[text]}>
+                    <p className="button-text">{text}</p>
+                  </a>
                 </button>
               );
             })}
