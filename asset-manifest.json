@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.e2dc5c91.css",
+    "main.js": "/website/static/js/main.281af08a.js",
+    "static/js/453.6991f45c.chunk.js": "/website/static/js/453.6991f45c.chunk.js",
+    "static/media/steph.png": "/website/static/media/steph.878d32ba5e7253de34e1.png",
+    "static/media/team.png": "/website/static/media/team.3339c530a65ba9f070e7.png",
+    "static/media/James.jpg": "/website/static/media/James.fd68180a1ea56d79ff86.jpg",
+    "static/media/rishit.jpg": "/website/static/media/rishit.a6e3e5584638274e006e.jpg",
+    "static/media/Angela.jpg": "/website/static/media/Angela.bd51d7c1f470b5dc41ca.jpg",
+    "static/media/aaron.jpg": "/website/static/media/aaron.0b25c8c23eea91e7b80e.jpg",
+    "static/media/tanmay.jpg": "/website/static/media/tanmay.bbdddc9ae70980090508.jpg",
+    "static/media/jaeha.jpg": "/website/static/media/jaeha.278843fa3483db41f4c2.jpg",
+    "static/media/katie.jpg": "/website/static/media/katie.a20aab651eb980e81c21.jpg",
+    "static/media/warren.jpg": "/website/static/media/warren.eec78ac398936fa8ba9c.jpg",
+    "static/media/noran.jpg": "/website/static/media/noran.a465adf68b09083e0887.jpg",
+    "static/media/icon21.png": "/website/static/media/icon21.e3849435f016c0e23cf2.png",
+    "static/media/player2.png": "/website/static/media/player2.fb9407a0d107c2564a46.png",
+    "static/media/insta-icon.png": "/website/static/media/insta-icon.8d1cf2ce24574d80a89b.png",
+    "static/media/player1.png": "/website/static/media/player1.ba72023b01881770fb97.png",
+    "static/media/email-icon.png": "/website/static/media/email-icon.45fae9e97162d29bfb6c.png",
+    "index.html": "/website/index.html",
+    "main.e2dc5c91.css.map": "/website/static/css/main.e2dc5c91.css.map",
+    "main.281af08a.js.map": "/website/static/js/main.281af08a.js.map",
+    "453.6991f45c.chunk.js.map": "/website/static/js/453.6991f45c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2dc5c91.css",
+    "static/js/main.281af08a.js"
+  ]
+}
