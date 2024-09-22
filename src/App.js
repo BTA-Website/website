@@ -1,9 +1,5 @@
-import { Auth } from './components/auth';
-    // <div className="App">
-    //   <Auth />
-    // </div>
 import React from "react";
-import { BrowserRouter as HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Landing from "./components/Landing/Landing";
 import JoinUs from "./components/JoinUs/JoinUs";
