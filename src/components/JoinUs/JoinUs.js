@@ -30,7 +30,7 @@ const JoinUs = () => {
   const buttonText = {
     "Fill out the Membership Form!": "https://forms.gle/WjQXd1Zd174oemB97",
     "Pay the Semester Fees": "https://forms.gle/WjQXd1Zd174oemB97",
-    "Sign up for Matches!": "https://docs.google.com/spreadsheets/d/1fqjCqmZvIZOHG05G_uSSefqkheqB8pBZQ2aGu5DfLEM/edit?usp=sharing",
+    "Sign up for Matches!": "https://docs.google.com/forms/d/e/1FAIpQLSfUKzvf5ilkPdyM9lZVrBeQjP_vRw9OW2W-fcKOwkUtYJ6VBg/viewform?usp=sf_link",
   };
 
   return (

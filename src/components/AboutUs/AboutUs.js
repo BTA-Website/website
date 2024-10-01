@@ -63,38 +63,38 @@ const AboutUs = () => {
       name: "Noran Hassan",
       role: "Social Media Director",
       bio: "Junior/MCB",
-      photo: noran
+      photo: noran,
     },
     {
       name: "Angela Zhang",
       role: "Executive Director",
       bio: "Sophomore/MCB",
-      photo: angela
+      photo: angela,
     },
     {
       name: "James Rungsawang",
       role: "Tournament Director",
       bio: "Senior/Computer Science",
-      photo: james
+      photo: james,
     },
     {
       name: "Tanmay Vijaywargiya",
       role: "Executive Director",
       photo: tanmay,
-      bio: "N/A"
+      bio: "N/A",
     },
     {
       name: "Rishit Pradhan ",
       role: "Executive Director",
       bio: "Sophomore/Chemical Biology",
-      photo: rishit
+      photo: rishit,
     },
     {
       name: "Katie Nguyen",
       role: "Officer",
       photo: katie,
-      bio: "Sophomore/Public Health"
-    }
+      bio: "Sophomore/Public Health",
+    },
   ];
   return (
     <>
@@ -104,10 +104,22 @@ const AboutUs = () => {
           <h1>We are Berkeley Tennis Association!</h1>
           <p className="clubBio">
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            mauris ligula, vestibulum quis urna at, ornare accumsan turpis.
-            Phasellus finibus nulla risus, at vulputate ligula euismod in.
-            Aenean vulputate pretium sodales .
+            Since its establishment in 2003, Berkeley Tennis Association
+            (formerly Tennis at Cal) has expanded into the largest tennis club
+            on campus with over 200 members in 2024 and growing. BTA provides
+            its members with experiences, lessons, and memories that will last a
+            lifetime! Our purpose is to provide opportunities for the UC
+            Berkeley community to compete and socialize with other members of
+            the tennis community. BTA is a social and casual club that
+            encourages members of all levels to not only elevate their tennis
+            game but to connect with others who share the same passion for
+            tennis. We hold optional practices, social events, and tournaments
+            throughout the semester. It's a great way to meet other tennis
+            players, learn, or improve your game. All skill levels are welcome!
+            In order to become a member of BTA, you must fill out our membership
+            form and pay dues. Check out our social media platforms (Instagram &
+            Facebook) to see what BTA is all about! Hope to see you out on the
+            courts!! ~BTA Team
           </p>
         </div>
         <div className="image1">
