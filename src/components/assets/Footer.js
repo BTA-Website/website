@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="footer-icons">
             <a href="https://www.instagram.com/berktennis/"><img src={insta}></img></a>
             <a href="https://www.facebook.com/groups/berkeleytennisassociation"><img src={facebook}></img></a>
-            <a href="mailto:berkeleytennisassociation@gmail.com"><img src={email}></img></a>
+            <a href="https://linktr.ee/berktenniss"><img src={email}></img></a>
             </div>
         </div>
     )

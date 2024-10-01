@@ -1,8 +1,8 @@
 import Header from "../assets/Header";
 import "./about.css";
 import Footer from "../assets/Footer";
-import tempIcon from "../../images/icon2.png";
 import player from "../../images/player1.png";
+import group from "../../images/group.jpg";
 import warren from "../../images/warren.jpg";
 import steph from "../../images/steph.png";
 import aaron from "../../images/aaron.jpg";
@@ -11,7 +11,7 @@ import noran from "../../images/noran.jpg";
 import angela from "../../images/Angela.jpg";
 import james from "../../images/James.jpg";
 import tanmay from "../../images/tanmay.jpg";
-import rishit from "../../images/rishit.jpg";
+import rishit from "../../images/rishit.png";
 import katie from "../../images/katie.jpg";
 
 const Member = ({ name, role, bio, photo }) => {
@@ -81,7 +81,7 @@ const AboutUs = () => {
       name: "Tanmay Vijaywargiya",
       role: "Executive Director",
       photo: tanmay,
-      bio: "N/A",
+      bio: "Yr/Major: Data Science/Econ",
     },
     {
       name: "Rishit Pradhan ",
@@ -123,7 +123,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="image1">
-          <img src={player}></img>
+          <img src={group}></img>
         </div>
       </div>
       <div className="memberInfo">
