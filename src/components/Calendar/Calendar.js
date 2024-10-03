@@ -13,7 +13,7 @@ const Calendar = () => {
         <div className="calendar-border">
           <iframe
             title="Google Calendar"
-            src="https://calendar.google.com/calendar/embed?src=joeljaison13%40gmail.com&ctz=America%2FLos_Angeles"
+            src="https://calendar.google.com/calendar/embed?src=stephanie2004%40berkeley.edu&ctz=America%2FLos_Angeles"
             style={{ paddingTop: "2%" }}
             width="800"
             height="600"
