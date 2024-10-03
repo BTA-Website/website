@@ -25,8 +25,8 @@ const Landing = () => {
                 <img src={pin} />
                 <p>HEARST MINING COURTS</p>
               </div>
-              <div className="landing-time"><p>Wednesdays @ 7 PM</p></div>
-              <div className="landing-time"><p>Thursdays @ 7PM</p></div>
+              <div className="landing-time"><p>Wednesdays @ 6-8 PM</p></div>
+              <div className="landing-time"><p>Saturdays @ 11AM-1PM</p></div>
             </div>
             <div className="landing-right">
               <img src={team} className="team-pic" />
